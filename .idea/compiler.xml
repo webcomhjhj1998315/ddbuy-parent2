@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ddbuy-common-interface" />
+        <module name="ddbuy-common-service" />
+        <module name="ddbuy-entity" />
+        <module name="ddbuy-manager-web" />
+        <module name="ddbuy-mapper" />
+        <module name="ddbuy-protocal-web" />
+        <module name="ddbuy_test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ddbuy-common-interface" target="1.5" />
+      <module name="ddbuy-common-service" target="1.8" />
+      <module name="ddbuy-entity" target="1.5" />
+      <module name="ddbuy-manager-web" target="1.8" />
+      <module name="ddbuy-mapper" target="1.5" />
+      <module name="ddbuy-parent" target="1.8" />
+      <module name="ddbuy-protocal-web" target="1.8" />
+      <module name="ddbuy_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
